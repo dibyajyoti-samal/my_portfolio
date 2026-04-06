@@ -1,0 +1,6 @@
+services:
+  myportfolio:
+    image: dibyasamal/myportfolio
+    ports:
+      - "80:80"
+    container_name: myportfolio
